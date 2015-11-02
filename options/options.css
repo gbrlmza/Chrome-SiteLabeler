@@ -1,0 +1,43 @@
+body {
+	width: 900px;
+	height: 400px;
+}
+
+.aright { text-align: right; }
+
+.hidden {
+	display: none !important;
+}
+
+.rules {
+	width: 100%;
+	margin: 10px 0;
+}
+
+.rules thead {
+	background: #EEE;
+}
+
+.rules th {
+	font-weight: bold;
+	text-align: left;
+	padding: 3px 5px;
+}
+
+.rules td {
+	padding: 5px 10px 5px 5px;
+}
+
+.rules .regexp {
+	width: 350px;
+}
+
+.message {
+	float: left;
+	display: inline-block;
+	padding: 4px 20px;
+	background: #FEFF99;
+	color: #000;
+	font-weight: bold;
+	display: none;
+}

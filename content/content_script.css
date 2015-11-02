@@ -1,0 +1,60 @@
+.chrome-extension-site-labeler-label {
+	position: fixed !important;
+	opacity: 1 !important;
+	z-index: 9999 !important;
+	font-weight: bold !important;
+	text-align: center !important;
+	color: #000 !important;
+	background: #000;
+	overflow: hidden;
+	font-family: Arial, Helvetica, sans-serif !important;
+	font-size: 18px !important;
+}
+
+.chrome-extension-site-labeler-label-bottom, .chrome-extension-site-labeler-label-top {
+	height: 25px !important;
+	line-height: 25px !important;
+}
+
+.chrome-extension-site-labeler-label-left, .chrome-extension-site-labeler-label-right {
+	width: 25px !important;
+	line-height: 25px !important;
+}
+
+.chrome-extension-site-labeler-label-top {
+	top: 0 !important;
+	left: 0 !important;
+	right: 0 !important;
+}
+
+.chrome-extension-site-labeler-label-bottom {
+	bottom: 0 !important;
+	left: 0 !important;
+	right: 0 !important;
+}
+
+.chrome-extension-site-labeler-label-left {
+	top: 0 !important;
+	left: 0 !important;
+	bottom: 0 !important;
+}
+
+.chrome-extension-site-labeler-label-left div {
+	position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+	transform:  translateX(-50%) translateY(-50%) rotate(-90deg) !important;
+}
+
+.chrome-extension-site-labeler-label-right {
+	top: 0 !important;
+	right: 0 !important;
+	bottom: 0 !important;
+}
+
+.chrome-extension-site-labeler-label-right div {
+	position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+	transform:  translateX(-50%) translateY(-50%) rotate(90deg) !important;
+}
