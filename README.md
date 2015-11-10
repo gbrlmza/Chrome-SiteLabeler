@@ -10,4 +10,4 @@ Chrome Web Store URL: https://chrome.google.com/webstore/detail/site-labeler/mdk
 - Show label on mouse idle
 
 ##### v0.1.0
-- Initial releas
+- Initial release
